@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+        <style>
+           *{
+            margin: 0;
+            padding: 0;
+        }
+        .main{
+            height:100vh;
+            width: 100%;
+            background-image: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(forest.jpg);
+            background-size: cover;
+            background-position: center;
+            filter: brightness(1.5);
+
+        }
+        .navbar ul a{
+            color: rgb(238, 197, 125);
+            font-size: 20px;
+            padding:20px;
+            margin-left:1px;
+            text-decoration: none;
+            transition: .3s ease-in-out;
+        }
+        .navbar ul a:hover{
+                 color:tomato;
+        }
+        .container{
+            width: 40%;
+            height:400px;
+            background-color:transparent;
+            margin-left:300px;
+            border: 1px solid rgb(225, 187, 118);
+            border-radius: 40px;
+            margin-top: 40px;
+        }
+        .container h1{
+            color:rgb(236, 196, 123);
+            padding: 15px;
+            text-align: center;
+        }
+        .container.form-group{
+                margin-left: 100px;
+                
+        }
+        .container label{
+            font-size: larger;
+            color:rgb(226, 187, 116);
+            margin-left: 100px;
+        
+        }
+        .container .form-group input{
+            width: 270px;
+            height: 30px;
+            border-radius: 10px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            margin-left: 100px;
+            font-weight: 600;
+            background-color: rgb(238, 231, 219);
+        }
+        .container button{
+            color: rgb(4, 7, 9);
+            width: 100px;
+            height: 35px;
+            background-color: rgb(248, 244, 244);
+            border-radius: 10px;
+            margin-left:200px;
+            margin-top: 20px;
+        }
+        .fa-facebook{
+         color: rgb(235, 235, 240);
+         margin-left:200px;
+         letter-spacing: 1.2rem;
+
+        }
+        .fa-square-twitter{
+            color: rgb(221, 221, 229);
+            letter-spacing: 1.2rem;
+        }
+        .fa-instagram{
+            color:rgb(228, 213, 218);
+            letter-spacing: 1.2rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+    <div class="navbar">
+          <ul>
+         <a href="login.html">home</a>
+         <a href="about.html">About</a>
+         <a href="gallery.html">Gallery</a>
+         <a href="contact.html">Contact</a>
+         <a href="pricing.html">pricing</a>
+           </ul>
+
+           <div class="container">
+           <img src="" alt="">
+           <h1> Contact Login </h1>
+          
+                  <div class="form-group">
+                    <label for="Username">Username</label></br>
+                    <input type="text" name="Username" placeholder="entername">
+                        </div>
+                           <div class="form-group">
+                        <label for="Password">Password</label></br>
+                        <input type="text" name="Password" placeholder="enterpass">
+                           </div>
+                                <div class="form-group">
+                                <button>Sign In</button>
+                                  </div>
+                                </br>
+                
+                                  <i class="fa-brands fa-facebook"></i>
+                                  <i class="fa-brands fa-instagram"></i>
+                                  <i class="fa-brands fa-square-twitter"></i>
+</body>
+</html>
